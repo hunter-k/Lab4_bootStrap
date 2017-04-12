@@ -1,0 +1,39 @@
+
+
+
+
+.blogSheet {
+  background-color: rgba(86, 112, 223, 0.5);
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.navBar {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.surveySheet {
+  background-color: rgba(86, 112, 223, 0.5);
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+
+.form-group {
+  width: 20%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+div.footer:hover {
+  background-color: rgba(86, 112, 223, 0.5);
+}
+
+.header:hover {
+  box-shadow: 10px 5px 5px black
+}

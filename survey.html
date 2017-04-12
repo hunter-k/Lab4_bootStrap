@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" class="bootstrap">
+<head>
+  <title>Detroit Car Blog</title>
+
+  <!-- Bootstrap CDN Link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- My own Style Sheet -->
+  <link rel="stylesheet" href="blog.css">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <!-- header image -->
+    <div class="row">
+      <a href="index.html"><img src="images/header.JPG" class="img-responsive header"></a>
+    </div>
+
+    <!-- Second row -->
+    <div class="row">
+
+      <!-- Navigation bar -->
+      <div class="col-xs-3 col-md-3 navBar">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="survey.html">Surveys</a></li>
+          <ul><br>
+          </div>
+
+          <!-- Survey section -->
+          <div class="col-xs-7 surveySheet">
+            <h1>Survey</h1>
+            <h2>Please take some time to fill out my survey!</h2>
+            <hr>
+            <form>
+              <h3>What is your favorite classic American car</h3>
+              <div class="radio">
+                <label><input type="radio" name="group2" checked/> 1989 Chevy Lumina</label><br/>
+                <label><input type="radio" name="group2"/> 2004 Chrysler Sebring (convertible)</label><br/>
+                <label><input type="radio" name="group2"/> 2006 Chrysler PT Cruiser</label><br/>
+                <label><input type="radio" name="group2"/> 1971 Ford Pinto</label><br/>
+                <label><input type="radio" name="group2"/> Other</label><br/>
+              </div>
+              <h3>How many American vehicles do you own?</h3>
+              <div class="form-group">
+                <label for="sel1">Select number:</label>
+                <select class="form-control" id="sel1">
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>More than 4</option>
+                </select>
+              </div>
+              <h3>From which decade(s) is your car or cars?</h3>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Older than 1970</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> 1970's</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> 1980's</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> 1990's</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Newer than 1999</label>
+              </div>
+              <h3>Please share your favorite car memory in the space below:</h3>
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+
+            </div>
+
+
+
+
+          </div>
+
+          <!-- Footer -->
+          <div class="row">
+            <div class="col-xs-12 footer">
+              Copywright 2017<span class="glyphicons glyphicons-copyright-mark"></span> |
+              <a href="mailto:example@email.com">Contact Me</a> |
+              <a href=#><img src="https://www.scherpenzeel.nl/templates/images/twitter-icoon.png"></a>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- Jquery Link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <!-- Bootstrap Javasript Link -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      </body>
+      </html>
