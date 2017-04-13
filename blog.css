@@ -1,23 +1,32 @@
-
-
+body {
+  background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Knitted-Grey-Seamless-Pattern-For-Website-Background.jpg");
+}
 
 
 .blogSheet {
-  background-color: rgba(86, 112, 223, 0.5);
+  background-color: rgba(96, 98, 101, 0.9);
   margin-top: 2%;
   margin-left: 4%;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px black
 }
 
 .navBar {
   text-align: center;
   margin-top: 2%;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: rgba(96, 98, 101, 0.9);
 }
 
 .surveySheet {
-  background-color: rgba(86, 112, 223, 0.5);
+  background-color: rgba(96, 98, 101, 0.9);
   margin-top: 2%;
   margin-left: 4%;
   margin-bottom: 5%;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px black;
+  padding: 1%;
 }
 
 .form-group {
@@ -36,4 +45,15 @@ div.footer:hover {
 
 .header:hover {
   box-shadow: 10px 5px 5px black
+}
+
+.header {
+  box-shadow: 5px 5px 10px black
+}
+.inter {
+  font-size: 2em;
+}
+
+h1 {
+  text-align: center;
 }
